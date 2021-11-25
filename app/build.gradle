@@ -48,8 +48,8 @@ dependencies {
     // Added dependencies:
     implementation platform("com.google.firebase:firebase-bom:28.4.1")
     implementation "com.google.firebase:firebase-firestore-ktx"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.5.2"
-    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.0-RC"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0-RC"
     testImplementation "org.robolectric:robolectric:4.6"
     testImplementation "androidx.test:core-ktx:1.4.0"
     testImplementation "androidx.test.ext:junit-ktx:1.1.3"
